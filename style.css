@@ -1,0 +1,749 @@
+  content {
+      justify-content: center;
+      align-items: center;
+      font-size: 2rem;
+    }
+    section {
+      justify-content: center;
+      align-items: center;
+      font-size: rem;
+    }
+
+    .box {
+      opacity: 0;
+      transform: translateY(50px);
+      transition: all 0.7s ease-out;
+    }
+
+    .box.show {
+      opacity: 1;
+      transform: translateY(0);
+    }
+	 section-2 {
+      justify-content: center;
+      align-items: center;
+      font-size: 2rem;
+    }
+
+    .box-2 {
+      opacity: 0;
+      transform: translateY(50px);
+      transition: all 0.7s ease-out;
+    }
+
+    .box-2.show {
+      opacity: 1;
+      transform: translateY(0);
+    } 
+	
+
+#car
+{
+color:#13357b
+
+}
+#collection
+{
+margin-right:1px;
+	background-image:url('../images/flower.gif');
+
+}
+.h-100 {
+border: 42px solid;border-color: transparent #13357B transparent #13357B;
+}
+.image-container img {
+                     width: 100%;
+                     height:auto;
+                     transition: 0.5s ease;
+           	      	 padding-left:0px;
+                     }
+
+.image-container img:hover
+                   		 {
+                         transform: scale(1.03); /* Zoom effect */
+                         filter: brightness(80%); /* Dark effect */
+                         }
+.image-wrapper {
+               position: relative;
+               width: 100%;
+               height: 200px;
+               overflow: hidden;
+               }
+
+.image-wrapper img {
+                   width: 100%;
+                   height: 100%;
+                   display: block;
+                   }
+
+.overlay {
+         position: absolute;
+         top: 0;
+         left: 0;
+         width: 100%;
+         height: 100%;
+         background: linear-gradient(135deg, #ff00cc, #3333ff);
+         opacity: 0;
+         transition: opacity 0.4s ease;
+         mix-blend-mode: screen;
+         }
+
+.image-wrapper:hover .overlay {
+                              opacity: 1;
+                              }
+
+.image-wrapper {
+               border: 5px solid transparent;
+               background-image: linear-gradient(white, white), linear-gradient(45deg, red, orange, yellow, green, blue, indigo, violet);
+               background-origin: border-box;
+               background-clip: content-box, border-box;
+               transition: 0.3s;
+               }
+
+.image-wrapper:hover {
+                     border: 5px solid transparent;
+                     }
+
+.polaroid3{
+	margin-right:-15px;
+	margin-left:-2px;
+  width:100%;
+  height:310px;
+  padding: 15px;
+    color:black;
+  background-color:#343a40;
+        border-radius:20px;
+		  box-shadow: 10px 10px;
+}
+#capacity-person
+{
+	margin-top:20px;
+}
+	
+ #footer
+{
+		background-image:url('../images/flower.gif');
+
+background-color:#13357b;
+padding-top:20px;
+margin-top:20px;
+}
+#next
+{
+	margin-top:255px;
+}
+#capacity
+{
+	margin-top:-314px;
+text-align:center;
+	color:white;
+}
+#pre
+{
+	margin-top:255px;
+}
+#call
+{
+	padding-bottom:70px;
+}
+#call2
+{
+	padding-top:10px;
+}
+#footer1
+{
+color:#13357b;
+padding-left:80px;
+
+}#footer2
+{
+color:white;
+padding-left:80px;
+}#footer3
+{
+color:white;
+padding-left:80px;
+}#footer4
+{
+color:white;
+padding-right:10px;
+}
+#black-color{
+	color:white;
+}
+#service-2
+{
+	margin-bottom:20px;
+}
+#palace
+{
+	padding-top:10px;
+}
+}
+#service-1
+{
+	padding-right:100px;
+}
+#person
+{
+	padding-right:17px;padding-top:0px;
+}
+#service
+{
+	padding-top:50px;
+}
+#photo
+{
+	padding-right:50px;
+}
+#About-text{
+	padding-left:30px;
+		padding-top:45px;
+
+}
+#center{
+	text-align:center;
+}
+#font-2
+{
+	margin-top:2px;
+	margin-left:1px;
+	padding-right: 30px;
+    padding-left: 33px;
+}
+#font{
+	font-size:80px;
+	float:left;
+	color:white;
+}
+#black
+{
+	color:black;
+}
+#service-3
+{
+	padding-top:20px;
+}	
+#service-4
+{
+	margin-left:10px;
+}
+#service-5
+{
+	margin-right:10px;
+}
+#class
+{
+	color:black;margin-left:20px;
+}
+#tourist
+{
+	text-align:center;
+	padding-top:20px;
+}
+#tourist2{
+	padding-right:6px;
+}
+.panel {
+      width: 98%;
+      height: 120px;
+      background-color: #13357b;
+      border-radius: 20px;
+      padding: 20px;
+      box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+      transition: background-color 0.3s, transform 0.3s;
+    }
+
+    .panel:hover {
+      background-color: #13357b; /* Change to your desired color */
+      transform: scale(1.02); /* Optional: subtle zoom effect */
+    color:white;
+	}
+
+.contact-buttons {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+	  	color:black;
+      z-index: 9999;
+    }
+
+    .contact-buttons a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 55px;
+      height: 55px;
+      border-radius: 50%;
+      background-color: white;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+      transition: all 0.3s ease;
+      text-decoration: none;
+    }
+
+    .contact-buttons a:hover {
+      transform: scale(1.1);
+    }
+
+    .contact-buttons img {
+      width: 30px;
+      height: 30px;
+    }
+	.contact-buttons-1 {
+      position: fixed;
+      bottom: 20px;
+      right: 1440px;
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+	  	color:black;
+      z-index: 9999;
+    }
+
+    .contact-buttons-1 a {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      width: 55px;
+      height: 55px;
+      border-radius: 50%;
+      background-color: white;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.25);
+      transition: all 0.3s ease;
+      text-decoration: none;
+    }
+
+    .contact-buttons-1 a:hover {
+      transform: scale(1.1);
+    }
+
+    .contact-buttons-1 img {
+      width: 30px;
+      height: 30px;
+    }
+ #row1
+{
+	padding-left:0px;
+}
+#row2
+{
+	margin-left:50px;
+}
+
+#end1
+{
+background-color:black;
+text-align:center;
+color:white;
+padding-top:15px;
+}
+#tour
+{
+padding-left:30px;
+}
+#palace3
+{
+	margin-top:10px;
+}
+.button-86-1{
+           padding: 0.6em 4em;
+           margin:12px 0px;
+		   font-size:13px;
+           border: none;
+           outline: none;
+           color: rgb(255, 255, 255);
+           background: #;
+           cursor: pointer;
+           position: relative;
+           z-index: 0;
+           border-radius: 10px;
+           user-select: none;
+          -webkit-user-select: none;
+           touch-action: manipulation;
+           }
+
+.button-86-1:before 
+                {
+                content: "";
+                background: linear-gradient(
+                45deg,
+#ff0000,
+                #ff7300,
+                #fffb00,
+                #48ff00,
+                #00ffd5,
+                #002bff,
+                #7a00ff,
+                #ff00c8,
+                #ff0000               
+                );
+                position: absolute;
+                top: 1px;
+                left: 25px;
+                background-size: 100%;
+                z-index: -1;
+                filter: blur(5px);
+               -webkit-filter: blur(5px);
+                width: calc(90% + 4px);
+                height: calc(90% + 4px);
+                animation: glowing-button-85 20s linear infinite;
+                transition: opacity 0.3s ease-in-out;
+                border-radius: 10px;
+                }
+
+                @keyframes glowing-button-85
+                {
+				0%
+	            {
+                background-position: 0 0;
+                }
+                50%
+				{
+                background-position: 400% 0;
+                }
+                100%
+				{
+                background-position: 0 0;
+                }
+                }
+
+.button-86-1:after {
+                 z-index: -1;
+                 content: "";
+                 position: absolute;
+                 width: 100%;
+                 height: 100%;
+                 background: #fff;
+                 left: 0; 
+                 top: 0;
+                 border-radius: 10px;
+                 }
+.button-87 {
+           padding: 0.8em 6em;
+           margin:20px 1px;
+		   font-size:15px;
+           border: none;
+           outline: none;
+           color: rgb(255, 255, 255);
+           background: #13357b;
+           cursor: pointer;
+           position: relative;
+           z-index: 0;
+           border-radius: 10px;
+           user-select: none;
+          -webkit-user-select: none;
+           touch-action: manipulation;
+           }
+
+.button-87:before 
+                {
+                content: "";
+                background: linear-gradient(
+                45deg,
+#ff0000,
+                #ff7300,
+                #fffb00,
+                #48ff00,
+                #00ffd5,
+                #002bff,
+                #7a00ff,
+                #ff00c8,
+                #ff0000               
+                );
+                position: absolute;
+                top: 1px;
+                left: 25px;
+                background-size: 400%;
+                z-index: -1;
+                filter: blur(5px);
+               -webkit-filter: blur(5px);
+                width: calc(100% + 4px);
+                height: calc(100% + 4px);
+                animation: glowing-button-85 20s linear infinite;
+                transition: opacity 0.3s ease-in-out;
+                border-radius: 10px;
+                }
+
+                @keyframes glowing-button-85
+                {
+				0%
+	            {
+                background-position: 0 0;
+                }
+                50%
+				{
+                background-position: 400% 0;
+                }
+                100%
+				{
+                background-position: 0 0;
+                }
+                }
+
+.button-87:after {
+                 z-index: -1;
+                 content: "";
+                 position: absolute;
+                 width: 110%;
+                 height: 110%;
+                 background: #fff;
+                 left: 0; 
+                 top: 0;
+                 border-radius: 10px;
+                 }
+ 
+.button-88 {
+           padding: 0.6em 4em;
+           margin:12px 1px;
+		   font-size:15px;
+           border: none;
+           outline: none;
+           color: rgb(255, 255, 255);
+           background: #13357b;
+           cursor: pointer;
+           position: relative;
+           z-index: 0;
+           border-radius: 10px;
+           user-select: none;
+          -webkit-user-select: none;
+           touch-action: manipulation;
+           }
+
+.button-88:before 
+                {
+                content: "";
+                background: linear-gradient(
+                45deg,
+#ff0000,
+                #ff7300,
+                #fffb00,
+                #48ff00,
+                #00ffd5,
+                #002bff,
+                #7a00ff,
+                #ff00c8,
+                #ff0000               
+                );
+                position: absolute;
+                top: -2px;
+                left: -2px;
+                background-size: 400%;
+                z-index: -1;
+                filter: blur(5px);
+               -webkit-filter: blur(5px);
+                width: calc(100% + 4px);
+                height: calc(100% + 4px);
+                animation: glowing-button-85 20s linear infinite;
+                transition: opacity 0.3s ease-in-out;
+                border-radius: 10px;
+                }
+
+                @keyframes glowing-button-85
+                {
+				0%
+	            {
+                background-position: 0 0;
+                }
+                50%
+				{
+                background-position: 400% 0;
+                }
+                100%
+				{
+                background-position: 0 0;
+                }
+                }
+
+.button-88:after {
+                 z-index: -1;
+                 content: "";
+                 position: absolute;
+                 width: 100%;
+                 height: 100%;
+                 background: #fff;
+                 left: 0; 
+                 top: 0;
+                 border-radius: 1px;
+                 }
+				
+
+button:hover {
+  opacity: 0.8;
+}
+
+ 
+.button-89 {
+           padding: 0.7em 2em;
+           margin:5px 8px;
+		   font-size:7px;
+           border: none;
+           outline: none;
+           color: rgb(255, 255, 255);
+           background: #13357b;
+           cursor: pointer;
+           position: relative;
+           z-index: 0;
+           border-radius: 10px;
+           user-select: none;
+          -webkit-user-select: none;
+           touch-action: manipulation;
+           }
+
+.button-89:before 
+                {
+                content: "";
+                background: linear-gradient(
+                45deg,
+#ff0000,
+                #ff7300,
+                #fffb00,
+                #48ff00,
+                #00ffd5,
+                #002bff,
+                #7a00ff,
+                #ff00c8,
+                #ff0000               
+                );
+                position: absolute;
+                top: 1px;
+                left: 1px;
+                background-size: 400%;
+                z-index: -1;
+                filter: blur(5px);
+               -webkit-filter: blur(5px);
+                width: calc(100% + 4px);
+                height: calc(100% + 4px);
+                animation: glowing-button-85 20s linear infinite;
+                transition: opacity 0.3s ease-in-out;
+                border-radius: 10px;
+                }
+
+                @keyframes glowing-button-85
+                {
+				0%
+	            {
+                background-position: 0 0;
+                }
+                50%
+				{
+                background-position: 400% 0;
+                }
+                100%
+				{
+                background-position: 0 0;
+                }
+                }
+
+.button-89:after {
+                 z-index: -1;
+                 content: "";
+                 position: absolute;
+                 width: 100%;
+                 height: 100%;
+                 background: #fff;
+                 left: 0; 
+                 top: 0;
+                 border-radius: 10px;
+                 }
+#mid
+{
+		background-image:url('../images/flower.gif');
+
+color:black;
+text-align:center;
+margin-top:0px;	
+}
+#aboutcar
+{
+		background-image:url('../images/flower.gif');
+
+margin-top:30px;
+width:100%;
+}
+#aboutcar1
+{
+			background-image:url('../images/flower.gif');
+
+margin-top:10px;
+width:99%;
+
+}
+#header
+{
+	color:white;
+	font-size:35px;
+	padding-top:10px;
+	font-family:italic;
+}
+#top
+{
+background-color:#13357b !important;	
+height:70px;
+color:white;
+font-size:25px;
+}
+#nav1
+{
+	color:white;
+	padding-left:50px;
+	font-size:25px;
+		font-family:italic;
+}
+#nav2
+{
+padding-left:670px;	
+padding-top:10px;
+color:#fff;
+	font-family:italic;
+	font-size:25px;
+}
+#map
+{
+	text-align:center;
+}
+#contactus
+{
+	padding-top:0px;
+	margin-left:-10px;
+}
+#contact2
+{
+	text-align :center;
+}
+#contact1
+{
+	text-align :center;
+	padding-top:10px;
+	}
+#contact3
+{
+padding-left:150px;
+}
+#form1
+{
+}
+#form2
+{
+}
+#bg
+{
+	width:100%;
+	background-image:url('../images/tour1.webp');
+	background-size:100% 100%;
+}
+#c
+{
+	color:white;
+}
+#famous
+{
+	margin-left:-15px;
+}
+#s
+{
+	color:black;
+	font-size:20px;
+}
